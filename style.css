@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 헤더 스타일 */
+
+header {
+  display: flex;
+  /* 행방향으로 배치 */
+  justify-content: space-between;
+  /* 로고 사진 끝으로 보내기 */
+  align-items: center;
+  /* 높이 일정하게 */
+  padding: 41px 300px;
+}
+
+nav ul {
+  list-style: none;
+  /* 점 없애기 */
+  display: flex;
+  /* 행방향 */
+  padding: 0px;
+}
+
+nav li {
+  margin-right: 100px;
+  /* 글자 간격 조절 */
+}
+
+/* 메인 스타일 */
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 296px 300px 241px;
+
+
+}
+
+#thanks {
+
+  height: 154px;
+  /* width: 964px; */
+  /* 이상있음 */
+
+  color: var(--primary, #FF8DAF);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 153.6px */
+
+}
+
+#interview {
+  color: var(--gray-700, #828282);
+  text-align: center;
+
+  /* subtitle */
+  font-family: Pretendard;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 44.8px */
+
+  margin-top: 20px;
+  margin-bottom: 152px;
+}
+
+button {
+  height: 70px;
+  width: 1319px;
+  border: none;
+
+  display: inline-flex;
+  padding: 16px 584px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 10px;
+  background: var(--primary, #FF8DAF);
+
+  color: var(--white, #FFF);
+
+  /* header/bold.24 */
+  font-family: Pretendard;
+  font-size: 20px;
+  /* 원래는 24 */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 38.4px */
+}
+
+
+/* 푸터 스타일 */
+
+
+footer {
+  background-color: #F0F0F0;
+  padding: 56px 300px;
+}
+
+#appandme {
+  display: flex;
+  margin-bottom: 16px;
+
+
+  color: var(--primary, #FF8DAF);
+  text-align: center;
+
+  /* header/bold.20 */
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 32px */
+}
+
+#anm {
+  margin-left: 20px;
+  margin-right: 1163px;
+}
+
+
+#phone {
+  margin-bottom: 8px;
+
+  color: var(--gray-800, #575757);
+
+  /* body/regular.14 */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 22.4px */
+}
+
+#email {
+  margin-bottom: 32px;
+
+  color: var(--gray-800, #575757);
+
+  /* body/regular.14 */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 22.4px */
+}
+
+#team {
+  height: 19px;
+  width: 1320px;
+  padding-top: 30px;
+  border-top: 1px solid #828282;
+
+  color: #616161;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
