@@ -1,0 +1,124 @@
+#container1 {
+  height: 154px;
+  width: 1320px;
+  margin: 0 auto;
+  border-bottom: 1px solid #828282;
+  margin-top: 136px;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+#QnA {
+  color: var(--primary, #FF8DAF);
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 64px */
+
+  margin-bottom: 8px;
+}
+
+#question {
+  color: var(--gray-600, #AEAEAE);
+
+  /* body/regular.16 */
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 25.6px */
+
+  margin-bottom: 24px;
+}
+
+#container2 {
+  margin: 0 auto;
+  margin-top: 68px;
+  height: 475px;
+  width: 1320px;
+  margin-bottom: 80px;
+}
+
+#number {
+  color: var(--gray-900, #2B2B2B);
+
+  /* header/medium.20 */
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 32px */
+  margin-bottom: 8px;
+}
+
+#password {
+  display: flex;
+  width: 1280px;
+  height: 26px;
+  padding: 9px 20px;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 12px;
+  border: 1px solid var(--gray-500, #D9D9D9);
+
+  margin-bottom: 52px;
+}
+
+#detail {
+  color: var(--gray-900, #2B2B2B);
+
+  /* header/medium.20 */
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 32px */
+
+  margin-bottom: 8px;
+}
+
+#detail_input {
+  display: flex;
+  width: 1280px;
+  height: 128px;
+  padding: 16px 20px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 10px;
+  border: 1px solid var(--gray-500, #D9D9D9);
+}
+
+button {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  height: 60px;
+  width: 1319px;
+
+  border-radius: 10px;
+  border: 1px solid var(--primary, #FF8DAF);
+  background: var(--white, #FFF);
+}
+
+#button_Q {
+
+  color: var(--primary, #FF8DAF);
+
+  /* header/medium.24 */
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 38.4px */
+}

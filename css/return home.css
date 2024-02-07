@@ -1,0 +1,65 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 398px;
+  margin-bottom: 534px;
+}
+
+#thanks {
+
+  height: 154px;
+  /* width: 964px; */
+  /* 이상있음 */
+
+  color: var(--primary, #FF8DAF);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 153.6px */
+
+}
+
+#interview {
+  color: var(--gray-700, #828282);
+  text-align: center;
+
+  /* subtitle */
+  font-family: Pretendard;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 44.8px */
+
+  margin-top: 20px;
+  margin-bottom: 152px;
+}
+
+button {
+  height: 70px;
+  width: 1319px;
+  border: none;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 10px;
+  background: var(--primary, #FF8DAF);
+
+  color: var(--white, #FFF);
+
+  /* header/bold.24 */
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 38.4px */
+}

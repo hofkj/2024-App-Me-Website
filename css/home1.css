@@ -1,0 +1,50 @@
+main {
+  display: flex;
+
+}
+
+main img {
+  width: 361px;
+  height: 259px;
+  flex-shrink: 0;
+}
+
+.title {
+  color: var(--gray-900, #2B2B2B);
+
+  /* header/bold.24 */
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 38.4px */
+}
+
+.detail {
+  width: 361px;
+
+  color: var(--gray-700, #828282);
+
+  /* body/medium.16 */
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 25.6px */
+}
+
+/* 수정 필요함 */
+
+#c1 {
+  margin: 306px 0px 343px 300px;
+}
+
+#c2 {
+  margin: 507px 0px 314px 113px;
+}
+
+#c3 {
+  margin: 271px 311px 550px 102px;
+}
